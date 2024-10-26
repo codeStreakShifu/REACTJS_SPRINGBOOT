@@ -1,0 +1,74 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .search-cart {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .search-cart input {
+    padding: 5px;
+  }
+  
+  .banner {
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #eee;
+    padding: 10px;
+    width: 250px;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .price {
+    color: #ff0000;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    color: #aaa;
+  }
+.test{
+    display: flex;
+    gap: 1000px;
+}  
+
+.test a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Anton', sans-serif; /* Apply Anton font to nav links */
+    font-size: 18px;
+}
